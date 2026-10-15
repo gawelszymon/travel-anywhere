@@ -9,3 +9,12 @@
   - kliknij w losowy punkt na mapie
 - oczekiwany rezultat
   - aplikacja nie zwrocila zadnego punktu, powniewaz w danym obszarze (pokrytym przez zadeklarowany w dokumentacji promien r) faktycznie nie ma zadnego hotelu
+
+
+- Identyfikator testu: nearest_hotel_found 
+- Warunki wejściowe: Uruchom aplikację oraz zaloguj się swoim tokenem.
+- Kroki testowe:
+	- Naciśnij w centrum Mostu Gdańskiego w Warszawie na mapie wyświetlonej na stronie.
+	- Po naciśnięciu, odznacz checkboxy air, rail oraz car.
+- Oczekiwany rezultat:
+	- Po prawej stronie od mapy wyświetla się lista hoteli w promieniu 30km posortowana od najbliższego do najdaleszego hotelu od współrzędnych geograficznych miejsca, w które kliknęliśmy.
