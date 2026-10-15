@@ -1,1 +1,11 @@
+Wykorzystując technikę przypadków testowych zaprojektuj 3 testy pokrywające najistotniejsze (w ocenie Waszego zespołu) wymagania opisane w project_requirements.md
 
+- identyfikator: Wyszukiwarka powinna być dostępna z dowolnego urządzenia
+- warunki wejściowe: urzadzenie posiada wbudowana przegladarke i na niej uruchomiona aplikacje
+- kroki testowe:
+  - 
+  - 
+  - 
+  - 
+- oczekiwany rezultat
+  - 
