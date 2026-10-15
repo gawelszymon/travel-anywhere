@@ -1,0 +1,23 @@
+Zadanie 1 część 2
+- Analiza wartości granicznych
+- Jako turysta-podróżnik wybierający się do punktu Lon2, Lat2 chciałbym wiedzieć gdzie znajduje się najbliższy hotel.
+
+
+
+
+- Identyfikator testu: hotel_in_0km_radius
+- Warunki wejściowe: Uruchom aplikację oraz zaloguj się swoim tokenem.
+- Kroki testowe:
+	- Kliknij w Warszawę na mapie
+	- Następnie, przybliż mapę najbardziej jak się da oraz kliknij w pole najbliżej znacznika dowolnego hotelu.
+- Oczekiwany rezultat:
+	- Najbliższy hotel wyświetla się w liście po prawej w odległości 0.01km.
+
+- Identyfikator testu: hotel_in_30km_radius
+- Warunki wejściowe: Uruchom aplikację oraz zaloguj się swoim tokenem.
+- Kroki testowe:
+	- Kliknij w miejsce na Morzu Bałtyckim dokładnie pokazane na screenshot_1.png na mapie.
+	- Następnie
+- Oczekiwany rezultat: Żaden hotel się nie wyświetli
+- Aktualny rezultat: Hotele w granicach 50km od miejsca wybranego zostają znalezione, tak jak na screenshot_1.png
+
